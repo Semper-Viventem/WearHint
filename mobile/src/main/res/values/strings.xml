@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WearTest</string>
+    <string name="error_with_loading">Ошибка при загрузке</string>
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+    <string name="dialog_add_text_hint">Text block</string>
+    <string name="add_new_block">Add new block:</string>
+    <string name="dialog_image_source_camera">Camera</string>
+    <string name="dialog_source_gallery">Gallery</string>
+    <string name="no_camera_permissions">You must give permission to access the camera</string>
+    <string name="not_storage_permission">Permission is required to access the storage</string>
+    <string name="select_image_source">Select image source</string>
+    <string name="hint_name">Hint name</string>
+</resources>

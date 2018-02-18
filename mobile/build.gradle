@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.example.konstantin.weartest"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+dependencies {
+    compile project(':common')
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    testImplementation 'junit:junit:4.12'
+
+    // Wear
+    wearApp project(':wear')
+    implementation 'com.google.android.gms:play-services-wearable:11.8.0'
+
+    // Support
+    implementation "com.android.support:appcompat-v7:$supportVersion"
+    implementation "com.android.support:design:$supportVersion"
+    implementation "com.android.support:recyclerview-v7:$supportVersion"
+    implementation "com.android.support:cardview-v7:$supportVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0-beta4'
+
+    // Rx
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.0.0'
+
+    // Conductor
+    implementation "com.bluelinelabs:conductor:$conductorVersion"
+    implementation "com.bluelinelabs:conductor-support:$conductorVersion"
+
+    // RxPM
+    implementation 'me.dmdev.rxpm:rxpm:1.1.1'
+
+    // Images
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+
+    // Lists
+    implementation 'com.hannesdorfmann:adapterdelegates3:3.0.1'
+
+    // Logging
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+
+    // DI
+    implementation 'org.koin:koin-android:0.5.1'
+
+    // Json
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    // Networking
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+}
