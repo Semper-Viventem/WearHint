@@ -1,12 +1,12 @@
 package com.example.konstantin.weartest.ui.hintlist
 
 import com.example.konstantin.weartest.domain.GetHintsInteractor
-import com.example.konstantin.weartest.domain.dto.Hint
 import com.example.konstantin.weartest.ui.OpenAddHintScreen
 import com.example.konstantin.weartest.ui.OpenHintItem
 import com.example.konstantin.weartest.ui.common.ScreenPm
 import me.dmdev.rxpm.bindProgress
 import me.dmdev.rxpm.widget.clickControl
+import ru.semper_viventem.common.dto.Hint
 import timber.log.Timber
 
 

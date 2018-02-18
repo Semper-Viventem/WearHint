@@ -1,7 +1,7 @@
 package com.example.konstantin.weartest.ui
 
-import com.example.konstantin.weartest.domain.dto.Hint
 import me.dmdev.rxpm.navigation.NavigationMessage
+import ru.semper_viventem.common.dto.Hint
 
 
 class Back : NavigationMessage

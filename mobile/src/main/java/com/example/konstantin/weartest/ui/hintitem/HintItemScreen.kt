@@ -13,7 +13,6 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
 import com.example.konstantin.weartest.*
-import com.example.konstantin.weartest.domain.dto.Hint
 import com.example.konstantin.weartest.extansions.visible
 import com.example.konstantin.weartest.system.OutIntentsHelper
 import com.example.konstantin.weartest.ui.UiModule
@@ -24,6 +23,7 @@ import com.example.konstantin.weartest.ui.hintitem.dialog.ImageSourceDialog
 import kotlinx.android.synthetic.main.screen_hint_item.view.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import org.koin.standalone.StandAloneContext
+import ru.semper_viventem.common.dto.Hint
 import java.io.File
 
 

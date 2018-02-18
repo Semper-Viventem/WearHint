@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.domain.dto.Hint
 import com.example.konstantin.weartest.ui.UiModule
 import com.example.konstantin.weartest.ui.common.BaseWearPmActivity
 import com.example.konstantin.weartest.ui.image.ImageActivity
 import kotlinx.android.synthetic.main.activity_hint.*
 import org.koin.standalone.StandAloneContext
+import ru.semper_viventem.common.dto.Hint
 
 /**
  * @author Kulikov Konstantin

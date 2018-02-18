@@ -1,8 +1,8 @@
 package com.example.konstantin.weartest.ui.hintdetails
 
-import com.example.konstantin.weartest.domain.dto.Hint
 import me.dmdev.rxpm.PresentationModel
 import ru.semper_viventem.common.dto.BaseHintItem
+import ru.semper_viventem.common.dto.Hint
 
 /**
  * @author Kulikov Konstantin

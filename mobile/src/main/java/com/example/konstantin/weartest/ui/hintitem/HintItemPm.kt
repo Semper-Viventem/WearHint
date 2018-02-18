@@ -2,10 +2,10 @@ package com.example.konstantin.weartest.ui.hintitem
 
 import android.net.Uri
 import com.example.konstantin.weartest.domain.SaveHintInteractor
-import com.example.konstantin.weartest.domain.dto.Hint
 import com.example.konstantin.weartest.ui.common.ScreenPm
 import me.dmdev.rxpm.widget.inputControl
 import ru.semper_viventem.common.dto.BaseHintItem
+import ru.semper_viventem.common.dto.Hint
 import timber.log.Timber
 
 

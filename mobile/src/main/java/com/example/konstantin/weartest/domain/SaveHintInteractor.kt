@@ -1,9 +1,9 @@
 package com.example.konstantin.weartest.domain
 
-import com.example.konstantin.weartest.domain.dto.Hint
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import ru.semper_viventem.common.HintGateway
+import ru.semper_viventem.common.dto.Hint
 
 
 class SaveHintInteractor(

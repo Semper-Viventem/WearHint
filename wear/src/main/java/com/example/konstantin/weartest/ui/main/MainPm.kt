@@ -1,9 +1,9 @@
 package com.example.konstantin.weartest.ui.main
 
 import com.example.konstantin.weartest.domain.GetHintsInteractor
-import com.example.konstantin.weartest.domain.dto.Hint
 import me.dmdev.rxpm.PresentationModel
 import me.dmdev.rxpm.bindProgress
+import ru.semper_viventem.common.dto.Hint
 
 
 class MainPm(

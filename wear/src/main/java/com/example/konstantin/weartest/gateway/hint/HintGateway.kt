@@ -4,13 +4,13 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import com.example.konstantin.weartest.domain.dto.BaseHintItem
-import com.example.konstantin.weartest.domain.dto.Hint
 import com.example.konstantin.weartest.gateway.DataItemNotFound
 import com.google.android.gms.tasks.Tasks
 import com.google.android.gms.wearable.*
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
+import ru.semper_viventem.common.dto.Hint
 import java.io.File
 
 

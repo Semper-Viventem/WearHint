@@ -1,4 +1,4 @@
-package com.example.konstantin.weartest.domain.dto
+package ru.semper_viventem.common.dto
 
 import android.annotation.SuppressLint
 import android.os.Parcelable
@@ -6,7 +6,6 @@ import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 import org.json.JSONObject
-import ru.semper_viventem.common.dto.BaseHintItem
 import java.util.*
 
 @Parcelize
