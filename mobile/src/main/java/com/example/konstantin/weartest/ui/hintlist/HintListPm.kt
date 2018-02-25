@@ -1,6 +1,6 @@
 package com.example.konstantin.weartest.ui.hintlist
 
-import com.example.konstantin.weartest.domain.GetHintsInteractor
+import com.example.konstantin.weartest.domain.interactor.GetHintsInteractor
 import com.example.konstantin.weartest.ui.OpenAddHintScreen
 import com.example.konstantin.weartest.ui.OpenHintItem
 import com.example.konstantin.weartest.ui.common.ScreenPm

@@ -71,7 +71,7 @@ class HintGateway(
             dataMapItem.dataMap.putStringArrayList(HINT_LIST_KEY, wearHintsSet.mapTo(arrayListOf()) { it.toJson() })
 
             dataClient.putDataItem(PutDataMapRequest.createFromDataMapItem(dataMapItem).asPutDataRequest())
-                .completeToSingle()
+                .toSingle()
         }
 
     fun removeHint(hint: Hint) = getDataItem()
@@ -84,7 +84,7 @@ class HintGateway(
             dataMapItem.dataMap.putStringArrayList(HINT_LIST_KEY, wearHints.mapTo(arrayListOf()) { it.toJson() })
 
             dataClient.putDataItem(PutDataMapRequest.createFromDataMapItem(dataMapItem).asPutDataRequest())
-                .completeToSingle()
+                .toSingle()
         }
 
     private fun getDataItem() = Single.create<DataItem> { emitter ->

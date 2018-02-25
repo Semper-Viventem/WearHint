@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WearTest</string>
+    <string name="app_name">WearHint</string>
     <string name="error_with_loading">Ошибка при загрузке</string>
     <string name="cancel">cancel</string>
     <string name="save">save</string>
@@ -11,4 +11,6 @@
     <string name="not_storage_permission">Permission is required to access the storage</string>
     <string name="select_image_source">Select image source</string>
     <string name="hint_name">Hint name</string>
+    <string name="no_wearable_devices">No wearable devices found</string>
+    <string name="update">update</string>
 </resources>
