@@ -1,5 +1,6 @@
 package com.example.konstantin.weartest.ui
 
+import com.example.konstantin.weartest.ui.capabilityinformation.CapabilityInformationPm
 import com.example.konstantin.weartest.ui.hintitem.HintItemPm
 import com.example.konstantin.weartest.ui.hintlist.HintListPm
 import com.example.konstantin.weartest.ui.main.MainPm
@@ -15,7 +16,8 @@ class UiModule : AndroidModule() {
     }
 
     override fun context(): Context = applicationContext {
-        provideFactory { MainPm() }
+        provideFactory { MainPm(get()) }
+        provideFactory { CapabilityInformationPm(get()) }
         provideFactory { HintListPm(get()) }
         provideFactory { HintItemPm(getProperty(PROPERTY_HINT_ITEM), getProperty(PROPERTY_HINT_ITEM_EDITABLE), get()) }
     }

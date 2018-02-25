@@ -9,6 +9,7 @@ import org.koin.dsl.context.Context
 class AppModule : AndroidModule() {
     override fun context(): Context = applicationContext {
         provide { Wearable.getDataClient(get<android.content.Context>()) }
+        provide { Wearable.getCapabilityClient(get<android.content.Context>()) }
         provide { OutIntentsHelper() }
     }
 }

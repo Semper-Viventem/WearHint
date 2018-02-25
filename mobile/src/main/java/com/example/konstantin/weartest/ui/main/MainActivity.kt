@@ -5,10 +5,10 @@ import com.bluelinelabs.conductor.Controller
 import com.example.konstantin.weartest.R
 import com.example.konstantin.weartest.extansions.back
 import com.example.konstantin.weartest.extansions.goTo
+import com.example.konstantin.weartest.extansions.setRoot
 import com.example.konstantin.weartest.system.OutIntentsHelper
-import com.example.konstantin.weartest.ui.Back
-import com.example.konstantin.weartest.ui.OpenAddHintScreen
-import com.example.konstantin.weartest.ui.OpenHintItem
+import com.example.konstantin.weartest.ui.*
+import com.example.konstantin.weartest.ui.capabilityinformation.CapabilityInformationScreen
 import com.example.konstantin.weartest.ui.common.BasePmActivity
 import com.example.konstantin.weartest.ui.hintitem.HintItemScreen
 import com.example.konstantin.weartest.ui.hintlist.HintListScreen
@@ -45,6 +45,8 @@ class MainActivity : BasePmActivity<MainPm>(), NavigationMessageHandler {
             is Back -> if (router.back()) else finish()
             is OpenHintItem -> router.goTo(HintItemScreen.newInstance(message.hint))
             is OpenAddHintScreen -> router.goTo(HintItemScreen.newInstance(editable = true))
+            is OpenHintList -> router.setRoot(HintListScreen())
+            is OpenCapabilitiesInformationScreen -> router.setRoot(CapabilityInformationScreen())
         }
         return true
     }
