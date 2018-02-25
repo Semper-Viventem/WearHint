@@ -11,8 +11,8 @@ class MainPm(
     private val checkCapabilitiesInteractor: CheckCapabilitiesInteractor
 ) : ScreenPm() {
 
-    override fun onBind() {
-        super.onBind()
+    override fun onCreate() {
+        super.onCreate()
 
         checkCapabilitiesInteractor.execute()
             .subscribe({ nodeExist ->
