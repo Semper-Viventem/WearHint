@@ -3,9 +3,9 @@ package com.example.konstantin.weartest.ui.main
 import android.os.Bundle
 import com.bluelinelabs.conductor.Controller
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.back
-import com.example.konstantin.weartest.extansions.goTo
-import com.example.konstantin.weartest.extansions.setRoot
+import com.example.konstantin.weartest.extensions.back
+import com.example.konstantin.weartest.extensions.goTo
+import com.example.konstantin.weartest.extensions.setRoot
 import com.example.konstantin.weartest.system.OutIntentsHelper
 import com.example.konstantin.weartest.ui.*
 import com.example.konstantin.weartest.ui.capabilityinformation.CapabilityInformationScreen

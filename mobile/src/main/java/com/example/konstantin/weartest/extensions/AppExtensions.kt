@@ -1,4 +1,4 @@
-package com.example.konstantin.weartest.extansions
+package com.example.konstantin.weartest.extensions
 
 import android.content.SharedPreferences
 import com.google.gson.Gson

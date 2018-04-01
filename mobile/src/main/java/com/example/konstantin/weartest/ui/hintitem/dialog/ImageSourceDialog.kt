@@ -3,7 +3,7 @@ package com.example.konstantin.weartest.ui.hintitem.dialog
 import android.content.Context
 import android.support.v7.app.AlertDialog
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.inflate
+import com.example.konstantin.weartest.extensions.inflate
 import kotlinx.android.synthetic.main.dialog_image_source.view.*
 
 

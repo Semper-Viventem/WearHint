@@ -1,4 +1,4 @@
-package com.example.konstantin.weartest.extansions
+package com.example.konstantin.weartest.extensions
 
 import android.app.Activity
 import android.content.Context

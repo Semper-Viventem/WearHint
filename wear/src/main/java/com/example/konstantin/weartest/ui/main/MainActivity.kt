@@ -3,7 +3,7 @@ package com.example.konstantin.weartest.ui.main
 import android.os.Bundle
 import android.support.wear.widget.WearableLinearLayoutManager
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.visible
+import com.example.konstantin.weartest.extensions.visible
 import com.example.konstantin.weartest.ui.common.BaseWearPmActivity
 import com.example.konstantin.weartest.ui.hintdetails.HintDetailsActivity
 import kotlinx.android.synthetic.main.activity_main.*

@@ -13,7 +13,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
 import com.example.konstantin.weartest.*
-import com.example.konstantin.weartest.extansions.visible
+import com.example.konstantin.weartest.extensions.visible
 import com.example.konstantin.weartest.system.OutIntentsHelper
 import com.example.konstantin.weartest.ui.UiModule
 import com.example.konstantin.weartest.ui.common.Screen

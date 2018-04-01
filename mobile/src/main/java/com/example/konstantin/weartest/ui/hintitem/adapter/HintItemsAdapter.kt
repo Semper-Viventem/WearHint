@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.inflate
+import com.example.konstantin.weartest.extensions.inflate
 import com.hannesdorfmann.adapterdelegates3.AdapterDelegate
 import com.hannesdorfmann.adapterdelegates3.ListDelegationAdapter
 import kotlinx.android.synthetic.main.item_add_hint.view.*

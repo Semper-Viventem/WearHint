@@ -3,50 +3,44 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    android:orientation="vertical">
+    android:background="@color/black">
 
-    <FrameLayout
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"/>
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"/>
 
-        <ProgressBar
-            android:id="@+id/progress"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_gravity="center"/>
+    <LinearLayout
+        android:id="@+id/zoomGroup"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right">
 
-        <com.github.chrisbanes.photoview.PhotoView
-            android:id="@+id/imageView"
+        <ImageButton
+            android:id="@+id/buttonZoomIn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            android:padding="5dp"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_zoom_in"/>
 
-        <LinearLayout
-            android:id="@+id/zoomGroup"
-            android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_gravity="right">
-
-            <ImageButton
-                android:id="@+id/buttonZoomIn"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:scaleType="fitEnd"
-                android:padding="5dp"
-                android:background="?android:selectableItemBackground"
-                android:src="@drawable/ic_zoom_in"/>
-
-            <ImageButton
-                android:id="@+id/buttonZoomOut"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:padding="5dp"
-                android:scaleType="fitStart"
-                android:background="?android:selectableItemBackground"
-                android:src="@drawable/ic_zoom_out"/>
-        </LinearLayout>
-    </FrameLayout>
+        <ImageButton
+            android:id="@+id/buttonZoomOut"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:scaleType="fitStart"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_zoom_out"/>
+    </LinearLayout>
 </android.support.wear.widget.BoxInsetLayout>

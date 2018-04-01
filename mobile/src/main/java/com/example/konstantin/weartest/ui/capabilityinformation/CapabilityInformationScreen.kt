@@ -3,7 +3,7 @@ package com.example.konstantin.weartest.ui.capabilityinformation
 import android.os.Bundle
 import android.view.View
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.visible
+import com.example.konstantin.weartest.extensions.visible
 import com.example.konstantin.weartest.ui.common.Screen
 import com.jakewharton.rxbinding2.view.clicks
 import kotlinx.android.synthetic.main.screen_capability_information.view.*

@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.visible
+import com.example.konstantin.weartest.extensions.visible
 import com.example.konstantin.weartest.ui.common.Screen
 import kotlinx.android.synthetic.main.screen_hint_list.view.*
 import kotlinx.android.synthetic.main.toolbar.view.*

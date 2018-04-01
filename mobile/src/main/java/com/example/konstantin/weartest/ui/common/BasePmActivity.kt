@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import com.bluelinelabs.conductor.Conductor
 import com.bluelinelabs.conductor.Controller
 import com.bluelinelabs.conductor.Router
-import com.example.konstantin.weartest.extansions.setRoot
+import com.example.konstantin.weartest.extensions.setRoot
 import io.reactivex.disposables.CompositeDisposable
 import me.dmdev.rxpm.AndroidPmView
 import me.dmdev.rxpm.PresentationModel

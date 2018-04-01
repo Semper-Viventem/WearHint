@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
 import com.example.konstantin.weartest.R
-import com.example.konstantin.weartest.extansions.inflate
+import com.example.konstantin.weartest.extensions.inflate
 import com.example.konstantin.weartest.ui.common.BaseListAdapter
 import kotlinx.android.synthetic.main.item_hint.view.*
 import ru.semper_viventem.common.dto.Hint
